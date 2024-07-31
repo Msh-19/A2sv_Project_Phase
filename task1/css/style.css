@@ -11,9 +11,9 @@
     /* the background is not able to fill the page */
     padding: 10px;
      /* background-color: #ff5945;  */
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;  */
 }
 .todo-app{
     width: 100%;
