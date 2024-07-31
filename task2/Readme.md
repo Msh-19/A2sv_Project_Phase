@@ -16,11 +16,11 @@ To include a video in Markdown, you can use the following syntax:
 The images 
 ### Initial state
 
-![Alt Text](.\task1\images\image1.png)
+![Alt Text](/task1/images/image1.png)
 
 
 ### filled and crossed off, with option to delete
-![Alt Text](.\task1\images\image.png)
+![Alt Text](/task1/images/image.png)
 
 
 
