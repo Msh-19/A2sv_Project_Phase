@@ -10,8 +10,6 @@ Users can create, delete and mark certain tasks as done.
 
 ## Screenshots
 
-To include a video in Markdown, you can use the following syntax:
-
 
 The images 
 ### Initial state
