@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Project Name
+Task 4
+## Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project aims to create a todolist using React + TypeScript. It can Create,Read(view), update(Edit), delete tasks from the list.
 
-Currently, two official plugins are available:
+## Functionality
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It can Create,Read(view), update(Edit), delete tasks from the list. The above functionality could be done by clicking on the buttons that symbolize each action.
 
-## Expanding the ESLint configuration
+## Screenshots
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+The images 
+### Initial state
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![Alt Text](/task4/images/Initial.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+### Adding some Tasks
+![Alt Text](/task4/images/Addition.png)
+
+
+### Deleting some Tasks
+![Alt Text](/task4/images/Deletion.png)
+
+
+### Editing some Tasks
+![Alt Text](/task4/images/Deletion.png)
+
+
+
+
+
+
+
+
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
