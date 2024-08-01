@@ -1,5 +1,5 @@
 # Project Name
-Task 1
+Task 2
 ## Description
 
 This project aims to create a todolist TypeScript. This is a console app, the images are intended for illustration purposes only
