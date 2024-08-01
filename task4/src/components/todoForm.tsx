@@ -1,10 +1,10 @@
-import { Dispatch, SetStateAction, useState } from "react";
+import React, { Dispatch, SetStateAction, useState } from "react";
 import TodoService from "../todoService";
-import todoTypes from "../todo";
+import TodoTypes from "../todo";
 import "../CSS/todoForm.css"
 
 interface PropTypes {
-  setTodos: Dispatch<SetStateAction<todoTypes[]>>;
+  setTodos: Dispatch<SetStateAction<TodoTypes[]>>;
 }
 
 const TodoForm: React.FC<PropTypes> = ({ setTodos }) => {
@@ -12,8 +12,8 @@ const TodoForm: React.FC<PropTypes> = ({ setTodos }) => {
 
   const handleAddTodo = () => {
     if (newTodoText.trim() !== "") {
-      const newTodo = TodoService.addTodos(newTodoText);
-      setTodos((prevTodo) => [...prevTodo, newTodo]);
+      const newTodo = TodoService.addTodo(newTodoText);
+      setTodos((prevTodos) => [...prevTodos, newTodo]);
       setNewTodoText("");
     }
   };
@@ -24,9 +24,9 @@ const TodoForm: React.FC<PropTypes> = ({ setTodos }) => {
         value={newTodoText}
         onChange={(e) => setNewTodoText(e.target.value)}
         autoFocus={true}
-        placeholder="Add a task"
+        placeholder="Add a Task"
       />
-      <button onMouseDown={handleAddTodo}>Add Task</button>
+      <button onClick={handleAddTodo}>Add Todo</button>
     </div>
   );
 };
