@@ -10,17 +10,17 @@ Users can create, delete and mark certain tasks as done without the need for del
 
 ## Screenshots
 
-To include a video in Markdown, you can use the following syntax:
+
 
 ### Initial state
-```
-![Alt Text](C:\Users\VICTUS\Desktop\edctn\SELF\A2SV\project phase Front-end\A2sv_Project_Phase\task1\images\image1.png)
-```
+
+![Alt Text](/task1/images/image1.png)
+
 
 ### filled and crossed off, with option to delete
-```
-![Alt Text](C:\Users\VICTUS\Desktop\edctn\SELF\A2SV\project phase Front-end\A2sv_Project_Phase\task1\images\image.png)
-```
+
+![Alt Text](/task1/images/image.png)
+
 
 
 
