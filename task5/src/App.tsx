@@ -9,6 +9,7 @@ const App = () => {
     control,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm({
     defaultValues: {
       name: "",
@@ -17,7 +18,11 @@ const App = () => {
     },
   });
 
-  const onSubmit = (data: any) => console.log(data);
+  const onSubmit = (data: any) => {
+    console.log(data);
+    reset(); // Reset the form after submission
+  };
+
   
 
   return (
