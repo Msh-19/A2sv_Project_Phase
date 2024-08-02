@@ -27,7 +27,7 @@ const App = () => {
           className="flex justify-center"
           style={{
             background:
-              "radial-gradient(circle,rgba(0,0,0,1) 40%, rgba(255,70,107,1) 100%)",
+              "radial-gradient(circle,rgba(0,0,0,1) 40%, rgba(0,0,255,1) 100%)", 
             height: "250px",
           }}
         >
@@ -86,7 +86,7 @@ const App = () => {
               />
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-pink-600 text-white font-medium uppercase rounded shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:outline-none focus:ring-0 active:bg-pink-800"
+                className="w-full px-6 py-3 bg-blue-600 text-white font-medium uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:outline-none focus:ring-0 active:bg-blue-800" 
               >
                 Send
               </button>
