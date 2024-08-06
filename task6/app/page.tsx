@@ -22,7 +22,7 @@ const Home = async() => {
   
   return (
     <div className='w-[60%] pl-20 mt-16'>
-      <h1 className='t'></h1>
+      <h1 className='font-bold text-xl'>Opportunities</h1>
       <p>Total job posts: {allJobs?.length}</p>
       <div className=''>
         {allJobs?.map(it => (
