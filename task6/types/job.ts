@@ -26,9 +26,4 @@ export interface Job {
     required_skills: string[];
   }
 
-  export interface Category{
-      Design: string;
-      Technology: string;
-      Health: string;
-      Marketing: string;
-  }
+  
