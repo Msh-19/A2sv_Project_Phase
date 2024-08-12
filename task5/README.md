@@ -17,11 +17,11 @@ This project aims to create a contact Form using React + TypeScript, particularl
 The images 
 ### Initial state
 
-![Alt Text](/task5/public/images/Initial.png)
+![Alt Text](/task5/public/images/initial.png)
 
 
 ### Adding some information
-![Alt Text](/task5/public/images/Addition.png)
+![Alt Text](/task5/public/images/filled.png)
 
 
 ### showing Error messages
